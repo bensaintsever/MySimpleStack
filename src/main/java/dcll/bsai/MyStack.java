@@ -6,6 +6,7 @@ package dcll.bsai;
 public class MyStack implements SimpleStack{
     /**
      * Un commentaire repondant à l'exigence 3
+     * Un commentaire repondant à l'exigence 1
      */
     private int maxSize;
     private Item[] stackArray;

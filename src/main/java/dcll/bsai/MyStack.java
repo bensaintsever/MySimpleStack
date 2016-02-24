@@ -4,10 +4,15 @@ package dcll.bsai;
  * Created by benjaminsaint-sever on 24/02/2016.
  */
 public class MyStack implements SimpleStack{
-
+    /**
+     * Un commentaire repondant à l'exigence 3
+     */
     private int maxSize;
     private Item[] stackArray;
     private int top;
+    public MyStack(){
+
+    }
     public MyStack(int s) {
         maxSize = s;
         stackArray = new Item[maxSize];
